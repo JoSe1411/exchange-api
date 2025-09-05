@@ -2,7 +2,6 @@
 
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.5-green.svg)](https://spring.io/projects/spring-boot)
 [![Java](https://img.shields.io/badge/Java-17-blue.svg)](https://www.java.com)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A professional Spring Boot backend API for currency exchange rate. Fetches real-time rates from an external API, with planned caching and conversion features.
 
