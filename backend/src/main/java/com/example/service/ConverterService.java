@@ -23,12 +23,12 @@ public class ConverterService {
         Date date = currencyExchange.getDate();
         ConvertCurrency currencyExchangeII = new ConvertCurrency();
         currencyExchangeII.setBaseCurrency(baseCurrency);
-        currencyExchangeII.setTargetcurrency(targetCurrency);
+        currencyExchangeII.setTargetCurrency(targetCurrency);
         currencyExchangeII.setDate(date);
         currencyExchangeII.setValue(convertedValue);
         return currencyExchangeII;
-        } catch(){
-
+        } catch(Exception e){
+            return e.printStackTrace();
         }
 
     } 
