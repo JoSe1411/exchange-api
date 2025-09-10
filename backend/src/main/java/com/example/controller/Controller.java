@@ -43,6 +43,9 @@ public class Controller {
     public ResponseEntity<ConvertCurrency> convertCurrency(@RequestParam String baseCurrency, @RequestParam String targetCurrency, @RequestParam Double amount){
         try{
             ConvertCurrency currencyExchange = converterService.getValue(baseCurrency,targetCurrency,amount);
+            return ResponseEntity.ok(currencyExchange);
+        } catch (Exception e) {
+            return ResponseEntity.status(500).build();
         }
     }
 }

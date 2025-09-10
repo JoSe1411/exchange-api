@@ -5,6 +5,12 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+# Environment variables
+.env
+
+# Doubts
+doubts.md
+
 ### STS ###
 .apt_generated
 .classpath

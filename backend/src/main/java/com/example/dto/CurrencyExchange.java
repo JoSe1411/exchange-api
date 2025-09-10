@@ -13,9 +13,10 @@ import lombok.NoArgsConstructor;
 public class CurrencyExchange {
     private String basecurrency;
     private String targetcurrency;
+    private int fallbackLevel;
+    private String fallbackReason; 
     private Double rate;
-    private Date date;
-    private boolean inCache;  
+    private Date date;  
 }
 
 

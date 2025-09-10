@@ -11,6 +11,8 @@ import java.util.Date;
 public class ConvertCurrency {
     private String baseCurrency;
     private String targetCurrency;
-    private double value;
+    private Double originalAmount;
+    private Double convertedAmount;
+    private String status;
     private Date date;
 }
